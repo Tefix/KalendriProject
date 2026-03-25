@@ -1,37 +1,210 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="et">
 <head>
-    <meta charset="UTF-8">
-    <title>MS Project</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis on MS Project?</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-<header>
-    <h1>Microsoft Project</h1>
-    <p>Управление проектами</p>
-</header>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero__noise"></div>
+    <nav class="nav">
+      <span class="nav__logo">MS Project</span>
+      <ul class="nav__links">
+        <li><a href="#mis">Mis on?</a></li>
+        <li><a href="#funktsioonid">Funktsioonid</a></li>
+        <li><a href="#kasutamine">Kasutamine</a></li>
+        <li><a href="#versioonid">Versioonid</a></li>
+      </ul>
+    </nav>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Microsoft Corporation</p>
+      <h1 class="hero__title">MS<br/><em>Project</em></h1>
+      <p class="hero__sub">Professionaalne projektijuhtimise tarkvara — plaani, jälgi ja teosta projekte täpselt.</p>
+      <a href="#mis" class="btn">Uuri lähemalt ↓</a>
+    </div>
+    <div class="hero__badge">EST. 1984</div>
+  </header>
 
-<section>
-    <h2>Что это такое?</h2>
-    <p>
-        Microsoft Project — это программа для планирования и управления проектами.
-    </p>
-</section>
+  <!-- MIS ON -->
+  <section class="section" id="mis">
+    <div class="container split">
+      <div class="split__label">
+        <span class="tag">01 — Definitsioon</span>
+      </div>
+      <div class="split__body">
+        <h2 class="section__title">Mis on<br/>MS Project?</h2>
+        <p>Microsoft Project (MS Project) on <strong>projektijuhtimise tarkvara</strong>, mille Microsoft on välja töötanud 1984. aastast. See on üks maailma enimkasutatavaid tööriistu projektide planeerimiseks, ressursside haldamiseks ja edenemise jälgimiseks.</p>
+        <p>Tarkvara aitab projektijuhtidel luua üksikasjalikke ajakavasid, jaotada ülesandeid meeskonnaliikmete vahel ning hoida silm peal eelarvetel ja tähtaegadel — kõik ühes kohas.</p>
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat__num">40+</span>
+            <span class="stat__label">aastat turul</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">20M+</span>
+            <span class="stat__label">kasutajat üle maailma</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">180+</span>
+            <span class="stat__label">riiki</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section>
-    <h2>Основные возможности</h2>
-    <ul>
-        <li>Планирование задач</li>
-        <li>Диаграмма Ганта</li>
-        <li>Управление ресурсами</li>
-        <li>Контроль сроков</li>
-    </ul>
-</section>
+  <!-- FUNKTSIOONID -->
+  <section class="section section--dark" id="funktsioonid">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag tag--light">02 — Funktsioonid</span>
+        <h2 class="section__title">Põhifunktsioonid</h2>
+      </div>
+      <div class="cards">
 
-<footer>
-    <p>© 2026 MS Project Demo</p>
-</footer>
+        <div class="card">
+          <div class="card__icon">📅</div>
+          <h3>Gantti diagramm</h3>
+          <p>Visualiseeri projektülesandeid ajaribana. Gantti diagramm on MS Projecti tuntuim vaade — näed korraga kõiki ülesandeid, nende kestust ja sõltuvusi.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">👥</div>
+          <h3>Ressursside haldus</h3>
+          <p>Määra ülesannetele töötajaid, seadmeid ja materjale. Jälgi, kes on üle- või alakoormatud, ning tasakaalusta töökoormust automaatselt.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">🔗</div>
+          <h3>Ülesannete sõltuvused</h3>
+          <p>Defineeri, millised ülesanded peavad enne teisi lõppema. MS Project arvutab automaatselt kriitilise tee (Critical Path) ja varajaseimad võimalikud kuupäevad.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">💰</div>
+          <h3>Eelarve jälgimine</h3>
+          <p>Sisesta ressursside kulud ja jälgi tegeliku vs planeeritud eelarve erinevust reaalajas. EVM (Earned Value Management) analüüs on sisseehitatud.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">📊</div>
+          <h3>Raportid ja armatuurlauad</h3>
+          <p>Genereeri ühe klikiga professionaalseid raporte: projekti seis, ressursside kasutus, eelarve ülevaade. Armatuurlauad on kohandatavad.</p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">🔄</div>
+          <h3>Microsoft 365 integratsioon</h3>
+          <p>Sünkroniseeri Teams, SharePoint ja Outlook keskkondadega. Jaga projektiplaane kolleegidega ja uuenda edenemist otse Teams-ist.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KASUTAMINE -->
+  <section class="section" id="kasutamine">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag">03 — Kasutamine</span>
+        <h2 class="section__title">Kuidas MS Projecti<br/>kasutatakse?</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <div class="step__content">
+            <h3>Projekti loomine</h3>
+            <p>Loo uus projekt, määra algus- ja lõppkuupäev ning vali sobiv kalender (tööpäevad, vahetused jne).</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <div class="step__content">
+            <h3>Ülesannete lisamine</h3>
+            <p>Lisa kõik projektülesanded, grupeeri need faaside kaupa ning määra igaühele kestus ja sõltuvused.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <div class="step__content">
+            <h3>Ressursside määramine</h3>
+            <p>Lisa ressurssiloendisse meeskonnaliikmed ja materjalid, seejärel seo nad vastavate ülesannetega.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">4</div>
+          <div class="step__content">
+            <h3>Algjoone salvestamine</h3>
+            <p>Salvesta projekti algjoon (Baseline) — see on võrdlusplaan, mille vastu hiljem tegelikku edenemist mõõdetakse.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__num">5</div>
+          <div class="step__content">
+            <h3>Edenemise jälgimine</h3>
+            <p>Sisesta regulaarselt tegelik progress (% lõpetatud, tegelikud tunnid), et saada täpne ülevaade projekti tervisest.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VERSIOONID -->
+  <section class="section section--accent" id="versioonid">
+    <div class="container">
+      <div class="section__header">
+        <span class="tag tag--light">04 — Versioonid</span>
+        <h2 class="section__title">MS Projecti versioonid</h2>
+      </div>
+      <div class="pricing">
+        <div class="plan">
+          <div class="plan__name">Project Plan 1</div>
+          <div class="plan__price">~10 €<span>/kuu</span></div>
+          <ul class="plan__features">
+            <li>✔ Veebipõhine kasutamine</li>
+            <li>✔ Põhiline planeerimine</li>
+            <li>✔ Koostöö meeskonnaga</li>
+            <li>✔ Taskubaasi haldus</li>
+          </ul>
+        </div>
+        <div class="plan plan--featured">
+          <div class="plan__badge">Populaarne</div>
+          <div class="plan__name">Project Plan 3</div>
+          <div class="plan__price">~30 €<span>/kuu</span></div>
+          <ul class="plan__features">
+            <li>✔ Desktopi rakendus</li>
+            <li>✔ Gantti & ressursid</li>
+            <li>✔ Kriitilise tee analüüs</li>
+            <li>✔ Raportid & EVM</li>
+            <li>✔ Portfooliovaade</li>
+          </ul>
+        </div>
+        <div class="plan">
+          <div class="plan__name">Project Plan 5</div>
+          <div class="plan__price">~55 €<span>/kuu</span></div>
+          <ul class="plan__features">
+            <li>✔ Kõik Plan 3-st</li>
+            <li>✔ Ressursside haldus org. tasandil</li>
+            <li>✔ Project Server / Online</li>
+            <li>✔ BI integratsioon</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">Microsoft Project — projektijuhtimise tarkvara alates 1984. aastast.</p>
+      <p class="footer__copy">© 2024 Hariduslik materjal · Loodud õppeotstarbel</p>
+    </div>
+  </footer>
 
 </body>
 </html>
